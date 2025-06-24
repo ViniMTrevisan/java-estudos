@@ -9,4 +9,4 @@ Calculadora de financiamento imobiliário (pasta `projetos-java/src/hipoteca/Mai
 
 
 ### ✔️ FizzBuzz
-Projeto FizzBuzz (pasta `projetos-java/src/FizzBuzz/Main.java`)
+Projeto FizzBuzz (pasta `projetos-java/src/fizzbuzz/Main.java`)
