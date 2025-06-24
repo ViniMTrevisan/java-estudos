@@ -6,3 +6,7 @@ Repositório com projetos e exercícios criados durante meus estudos de Java.
 
 ### ✔️ Hipoteca
 Calculadora de financiamento imobiliário (pasta `projetos-java/src/hipoteca/Main.java`)
+
+
+### ✔️ FizzBuzz
+Projeto FizzBuzz (pasta `projetos-java/src/FizzBuzz/Main.java`)
