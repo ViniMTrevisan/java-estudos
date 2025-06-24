@@ -7,8 +7,8 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        
         int principal = 0;
-
         while (true) {
             System.out.print("Principal (1K - 1M): ");
             principal = scanner.nextInt();
