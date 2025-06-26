@@ -10,6 +10,9 @@ public class Main {
         var employee2 = new Employee(18000, 100);
         int wage2 = employee2.calculateWage(30);
         System.out.println(wage2);
+
+        Employee.printNumberOfEmployees(); 
+
     }
 }
 
