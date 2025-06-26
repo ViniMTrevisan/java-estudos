@@ -3,14 +3,10 @@ package company;
 public class Main {
 
     public static void main (String[] args){
-        int baseSalary = 50_000;
-        int extraHours = 10;
-        int hourlyRate = 20;
-        int wage = calculateWage(baseSalary, extraHours, hourlyRate);
-        System.out.println(wage);
-    }
-
-    public static int calculateWage(int baseSalary, int extraHours, int hourlyRate){
-        return baseSalary + (extraHours * hourlyRate);
+        var employee1 = new Employee();
+        employee1.setBaseSalary(50_000);
+        employee1.setHourlyRate(20);
+        int wage1 = employee1.calculateWage(10);
+        System.out.println(wage1);
     }
 }
