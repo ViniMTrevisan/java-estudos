@@ -20,10 +20,6 @@ public class Employee {
         this.baseSalary = baseSalary;
     }
 
-    private int getBaseSalary(){
-        return baseSalary;
-    }
-
     private void setHourlyRate(int hourlyRate) {
         if (hourlyRate <= 0){
             throw new IllegalArgumentException("Hourly Rate must be above 0");
@@ -31,6 +27,10 @@ public class Employee {
         this.hourlyRate = hourlyRate;
     }
 
+    private int getBaseSalary(){
+        return baseSalary;
+    }
+    
     private int getHourlyRate(){
         return hourlyRate;
     }
