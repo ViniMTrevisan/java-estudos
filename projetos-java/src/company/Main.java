@@ -11,7 +11,7 @@ public class Main {
         int wage2 = employee2.calculateWage(30);
         System.out.println(wage2);
 
-        Employee.printNumberOfEmployees(); 
+        Employee.printNumberOfEmployees();
 
     }
 }
