@@ -3,7 +3,7 @@ package Reaprendendo;
 public class Main {
 
     public static void main (String[] args){
-        var pessoa = new Pessoa("Vinicius", 19);
-        System.out.println(pessoa.falar());
+        var lista = new ListaDeNomes();
+        System.out.println(lista.names());
     }
 }
