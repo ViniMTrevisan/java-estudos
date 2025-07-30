@@ -9,7 +9,7 @@ public class Main {
         map.put(1, "a");
         map.get(1);
         map.remove(1);
-        
+
     }
 }
 
