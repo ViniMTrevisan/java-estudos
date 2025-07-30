@@ -29,9 +29,4 @@ public class CompletableFuturesDemo {
             throw new RuntimeException(e);
         }
     }
-
-
-
-
-
 }
